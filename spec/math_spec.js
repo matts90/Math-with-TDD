@@ -15,4 +15,3 @@ describe("A simple math program", function() {
     expect(math.divide(10,5)).toBe(2);
   });          
 });
-
