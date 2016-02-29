@@ -13,5 +13,6 @@ describe("A simple math program", function() {
   });  
      it("can add two numbers", function() {
     expect(math.divide(10,5)).toBe(2);
+    expect(math.divide(10,0)).toBe("Cannot divide by 0");
   });          
 });
